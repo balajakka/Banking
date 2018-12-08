@@ -20,6 +20,7 @@ public class MyBankingStepDefinition {
     public void step1(){
         System.setProperty("webdriver.chrome.driver","./src/test/java/chromedriver");
         System.out.println("I am in Given");
+        System.out.println("I am in Given");
         driver = new ChromeDriver();
     }
     @When("^I access HSBC bank website")
