@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Opening of Bank websites",
+        "description": "",
+        "id": "process-of-displaying-the-balance;opening-of-bank-websites",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2891476580,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am a Chrome user",
+            "match": {
+              "location": "MyBankingStepDefinition.step1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5111631700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I access HSBC bank website",
+            "match": {
+              "location": "MyBankingStepDefinition.step2()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137038543,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I see HSBC home page",
+            "match": {
+              "location": "MyBankingStepDefinition.ste3()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Process of displaying the balance",
+    "description": "",
+    "id": "process-of-displaying-the-balance",
+    "keyword": "Feature",
+    "uri": "MyBanking.feature"
+  }
+]
